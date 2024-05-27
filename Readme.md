@@ -2,6 +2,7 @@
 
 * Студент: [Виктория Сурикова](https://up.htmlacademy.ru/htmlcss-individual/2/user/2379287).
 * Наставник: [Малик Киров](https://htmlacademy.ru/profile/id17217).
+* Сайт: [Мой проект Седона](https://vsknox.github.io/2379287-sedona-2/).
 
 ---
 
