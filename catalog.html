@@ -49,10 +49,12 @@
     <header class="catalog-header">
       <h1 class="catalog-title">Гостиницы Седоны</h1>
       <ul class="breadcrumbs">
-        <li class="breadcrums-item">
+        <li class="breadcrumbs-item">
           <a href="index.html" class="breadcrumbs-link">
             <span class="visually-hidden">Главная</span>
           </a>
+        </li>
+        <li class="breadcrums-item">
           <a class="breadcrumbs-link">
             Гостиницы
           </a>
@@ -117,8 +119,10 @@
             <!-- Блок стоимости -->
           </div>
         </fieldset>
-        <button class="button" type="submit">Применить</button>
-        <button class="button" type="reset">Сбросить</button>
+        <div class="catalog-buttons-group">
+          <button class="button" type="submit">Применить</button>
+          <button class="button" type="reset">Сбросить</button>
+        </div>
         </form>
       </section>
     </header>
@@ -131,20 +135,27 @@
         <option value="popular">Сначала популярные</option>
         <option value="expensive">Сначала дорогие</option>
       </select>
-      <a class="button button-current" href="#">
-        <span class="visually-hidden">Показать плиткой</span>
-      </a>
-      <a class="button" href="#">
-        <span class="visually-hidden">Показать карточки</span>
-      </a>
-      <a href="#" class="button">
-        <span class="visually-hidden">Показать список</span>
-      </a>
+      <!-- Вид раскладки карточек -->
+      <div class="catalog-results-layout">
+        <a class="button button-current" href="#">
+          <span class="visually-hidden">Показать плиткой</span>
+        </a>
+        <a class="button" href="#">
+          <span class="visually-hidden">Показать карточки</span>
+        </a>
+        <a href="#" class="button">
+          <span class="visually-hidden">Показать список</span>
+        </a>
+      </div>
       <!-- Cards -->
       <ul class="card-list">
         <li class="card-item">
-          <img class="card-img" src="#" alt="Пещера на фоне звездного неба">
-          <h3 class="card-title">Amara Resort & Spa</h3>
+          <a class="card-link" href="#">
+            <img class="card-link-img" src="#" alt="Пещера на фоне звездного неба">
+          </a>
+          <h3 class="card-title">
+            <a href="#">Amara Resort & Spa</a>
+          </h3>
           <span>Гостиница</span>
           <b class="card-price">От 4000 ₽</b>
           <a class="card-link" href="#" >Подробнее</a>
@@ -155,8 +166,12 @@
           <p class="card-rate-text">Рейтинг: 8,5</p>
         </li>
         <li class="card-item">
-          <img class="card-img" src="#" alt="Долина с радугой на фоне пасмурного неба">
-          <h3 class="card-title">Villas at Poco Diablo</h3>
+          <a class="card-link" href="#">
+            <img class="card-link-img" src="#" alt="Долина с радугой на фоне пасмурного неба">
+          </a>
+          <h3 class="card-title">
+            <a href="#">Villas at Poco Diablo<</a>
+          </h3>
           <span>Гостиница</span>
           <b class="card-price">От 5000 ₽</b>
           <a class="card-link" href="#" >Подробнее</a>
@@ -167,8 +182,12 @@
           <p class="card-rate-text">Рейтинг: 9,2</p>
         </li>
         <li class="card-item">
-          <img class="card-img" src="#" alt="Долина на фоне ясного неба">
-          <h3 class="card-title">Desert Quail Inn</h3>
+          <a class="card-link" href="#">
+            <img class="card-link-img" src="#" alt="Долина на фоне ясного неба">
+          </a>
+          <h3 class="card-title">
+            <a href="#">VDesert Quail Inn<</a>
+          </h3>
           <span>Гостиница</span>
           <b class="card-price">От 2500 ₽</b>
           <a class="card-link" href="#" >Подробнее</a>
@@ -179,8 +198,12 @@
           <p class="card-rate-text">Рейтинг: 6,9</p>
         </li>
         <li class="card-item">
-          <img class="card-img" src="#" alt="Долина на фоне звездного неба">
-          <h3 class="card-title">GreenTree Inn</h3>
+          <a class="card-link" href="#">
+            <img class="card-link-img" src="#" alt="Долина на фоне звездного неба">
+          </a>
+          <h3 class="card-title">
+            <a href="#">GreenTree Inn</a>
+          </h3>
           <span>Гостиница</span>
           <b class="card-price">От 1500 ₽</b>
           <a class="card-link" href="#" >Подробнее</a>
